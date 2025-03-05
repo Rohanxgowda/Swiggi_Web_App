@@ -14,4 +14,4 @@
       command: docker rmi roh/warimage
       ignore_errors: yes
     - name: Pull and run image
-      command: docker run -it -d -p 8081:8080-name tomcat roh/warimage
+      command: docker run -it -d -p 8081:8080 --name tomcat roh/warimage
